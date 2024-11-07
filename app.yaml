@@ -24,11 +24,3 @@ env_variables:
     APP_NAME: "GCP App - CODE"
 
     LOG_LEVEL: debug
-
-"scripts": {
-        ...
-        "post-install-cmd": [
-            "chmod -R 755 bootstrap\/cache",
-            "php artisan cache:clear"
-        ]
-},
