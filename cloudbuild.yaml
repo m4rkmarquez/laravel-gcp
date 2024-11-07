@@ -10,7 +10,7 @@ steps:
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   entrypoint: gcloud
 #specify the service name and the region
-  args: ['run', 'deploy', 'SERVICE-NAME', '--image', 'gcr.io/$PROJECT_ID/', '--region', 'REGION',         
+  args: ['run', 'deploy', 'SERVICE-NAME', '--image', 'gcr.io/$PROJECT_ID/', '--region', 'asia-southeast1',         
         "--platform", "managed",
         "--port", "8080"]
 images:
