@@ -15,3 +15,5 @@ steps:
         "--port", "8080"]
 images:
 - gcr.io/$PROJECT_ID/IMAGE
+options:
+  logging: CLOUD_LOGGING_ONLY
